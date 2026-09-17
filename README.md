@@ -1,6 +1,6 @@
 <div align="center">
 
-# winrarzipsexploit
+# winrarzips exploit
 
 <a href="https://t.me/winrarzipsteam">
   <img src="https://img.shields.io/badge/📢_TELEGRAM_CHANNEL-winrarzipsexploit-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white&labelColor=0d1117" alt="Telegram Channel"/>
