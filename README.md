@@ -27,7 +27,7 @@
 - 🔴 **Cybersecurity enthusiast** — Pentesting, Python, Exploit Research
 - 🎯 **Bug Hunting & Vulnerability Analysis** — CVE PoC, batch automation
 - 🚀 **Red Team mindset** — sürekli öğrenen penetration tester adayı
-- 📡 **Telegram:** [winrarzipsexploit](https://t.me/winrarzipsteam)
+- 📡 **Telegram:** [winrarzips exploit](https://t.me/winrarzipsteam)
 
 ---
 
