@@ -34,6 +34,14 @@
 
 ---
 
+### 📂 Published CVEs
+
+| CVE | Repo |
+|-----|------|
+| CVE-2026-48908 | [SP Page Builder — Joomla RCE](https://github.com/winrarzipsexploit/CVE-2026-48908) |
+
+---
+
 ### 💻 Tech Stack
 
 <div align="center">
