@@ -55,6 +55,8 @@
 | CVE | Repo |
 |-----|------|
 | CVE-2026-48908 | [SP Page Builder — Joomla RCE](https://github.com/winrarzipsexploit/CVE-2026-48908) |
+| CVE-2026-27540 | [WWLC — WordPress unauth upload RCE](https://github.com/winrarzipsexploit/CVE-2026-27540) |
+| CVE-2026-87930 | [Joomla Multi-CVE Suite (7 modules)](https://github.com/winrarzipsexploit/CVE-2026-87930) |
 
 ---
 
@@ -82,6 +84,8 @@
 | CVE | Repo |
 |-----|------|
 | CVE-2026-48908 | [SP Page Builder — Joomla RCE](https://github.com/winrarzipsexploit/CVE-2026-48908) |
+| CVE-2026-27540 | [WWLC — WordPress unauth upload RCE](https://github.com/winrarzipsexploit/CVE-2026-27540) |
+| CVE-2026-87930 | [Joomla Multi-CVE Suite (7 modules)](https://github.com/winrarzipsexploit/CVE-2026-87930) |
 
 ---
 
