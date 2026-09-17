@@ -1,9 +1,9 @@
 <div align="center">
 
-# winrarzipzexploit
+# winrarzipsexploit
 
 <a href="https://t.me/winrarzipsteam">
-  <img src="https://img.shields.io/badge/📢_TELEGRAM_CHANNEL-winrarzipzexploit-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white&labelColor=0d1117" alt="Telegram Channel"/>
+  <img src="https://img.shields.io/badge/📢_TELEGRAM_CHANNEL-winrarzipsexploit-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white&labelColor=0d1117" alt="Telegram Channel"/>
 </a>
 
 <br/><br/>
@@ -27,7 +27,7 @@
 - 🔴 **Cybersecurity enthusiast** — Pentesting, Python, Exploit Research
 - 🎯 **Bug Hunting & Vulnerability Analysis** — CVE PoC, batch automation
 - 🚀 **Red Team mindset** — sürekli öğrenen penetration tester adayı
-- 📡 **Telegram:** [winrarzipzexploit](https://t.me/winrarzipsteam)
+- 📡 **Telegram:** [winrarzipsexploit](https://t.me/winrarzipsteam)
 
 ---
 
@@ -51,7 +51,7 @@
 <div align="center">
 
 <a href="https://t.me/winrarzipsteam">
-  <img src="https://img.shields.io/badge/Telegram-winrarzipzexploit-2CA5E0?style=flat-square&logo=telegram&logoColor=white" alt="Telegram"/>
+  <img src="https://img.shields.io/badge/Telegram-winrarzipsexploit-2CA5E0?style=flat-square&logo=telegram&logoColor=white" alt="Telegram"/>
 </a>
 
 </div>
@@ -60,6 +60,6 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=990000&height=100&section=footer&text=BY%3A%20winrarzipzexploit&fontSize=20&fontColor=ffffff&animation=twinkling" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=990000&height=100&section=footer&text=BY%3A%20winrarzipsexploit&fontSize=20&fontColor=ffffff&animation=twinkling" width="100%"/>
 
 </div>
